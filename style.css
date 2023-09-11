@@ -1,0 +1,46 @@
+body {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color:khaki;
+    height: 80vh;
+    width: 30vw;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.display {
+    flex: 1;
+    margin: 15px;
+    background-color: ivory;
+    border-radius: 20px;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+}
+
+.button {
+    flex: 1;
+    margin: 10px;
+    background-color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.plus, .minus, .times, .divide, .equals {
+    background-color:tomato;
+}
+
+.clear {
+    background-color:gray;
+}
